@@ -54,7 +54,7 @@ function Home(props) {
                                 </Timeline>
                             </div>
                             <div class="even" >
-                                <Title >Main Projects</Title>
+                                <Title >Major Projects</Title>
                                 <div class="card-section">
                                     <Row gutter={16}>
                                         <Col span={8}>
@@ -85,7 +85,7 @@ function Home(props) {
                                 </div>
                             </div>
                             <div class="odd">
-                            <Title >Major Projects</Title>
+                            <Title >Minor Projects</Title>
                             <Collapse accordion>
                                 <Panel header="Tic Tac Toe" key="1">
                                 <p>Tic Tac toe is a simple gaming project. We implement front-end in react and backend in Express, which intergrates with mongodb. </p>
@@ -101,6 +101,7 @@ function Home(props) {
                         </div>
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>©2020 Created by Fenghsi Yu</Footer>
+
                 </Layout>
             </div>
      );
