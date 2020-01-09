@@ -50,8 +50,8 @@
 
 .content{
   background-image: linear-gradient(to bottom, gray #F0F8FF);
+  padding: 0 50px;
 }
-
 
 
 
@@ -70,10 +70,6 @@
 
 
 
-.projects{
-
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -91,6 +87,8 @@
   opacity: 0.8;
 }
 
+
+
 .text {
   color: black;
   font-weight: bold;
@@ -102,4 +100,12 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .content{
+    padding: 0 2px;
+  }
 }

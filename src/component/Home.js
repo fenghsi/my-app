@@ -16,7 +16,7 @@ function Home(props) {
                 <Layout className="layout">
                     <Header>
                     </Header>
-                    <Content className = "content" style={{ padding: '0 50px' }}>
+                    <Content className = "content" >
                         <div class = "blocks" style={{ background: '#fff', padding: 24, minHeight: 280 }}>
                             <div class="odd">
                                 <Title style={{ textAlign: 'center' }} >Fenghsi Yu</Title>
