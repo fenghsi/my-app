@@ -10,7 +10,7 @@
 #Timeline {
   align-items: center;
   margin: auto;
-  width: 60%;
+  width: 65%;
   padding: 10px;
   
 }
@@ -25,7 +25,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  width: 20%;
+  width: 25%;
 }
 
 .even{
@@ -46,6 +46,11 @@
   width: 50%;
 }
 
+.blocks{
+  background: #fff;
+  padding: 24px;
+  min-height: 280;
+}
 
 
 .content{
@@ -88,7 +93,6 @@
 }
 
 
-
 .text {
   color: black;
   font-weight: bold;
@@ -102,10 +106,37 @@
   text-align: center;
 }
 
+.card-section{
+  background: #ECECEC;
+  padding: 30px;
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .content{
     padding: 0 2px;
+  }
+  .card-section{
+    background: #ECECEC;
+    padding: 3px;
+  }
+
+  #Timeline {
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+    
+  }
+  .prof_picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 60%;
+  }
+  .blocks{
+    background: #fff;
+    padding: 2px;
   }
 }

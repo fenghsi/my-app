@@ -17,7 +17,7 @@ function Home(props) {
                     <Header>
                     </Header>
                     <Content className = "content" >
-                        <div class = "blocks" style={{ background: '#fff', padding: 24, minHeight: 280 }}>
+                        <div class = "blocks" >
                             <div class="odd">
                                 <Title style={{ textAlign: 'center' }} >Fenghsi Yu</Title>
                                 <img src={feyu} alt="Avatar" class="prof_picture" ></img>
@@ -52,7 +52,7 @@ function Home(props) {
                             </div>
                             <div class="even" >
                                 <Title >Projects</Title>
-                                <div style={{ background: '#ECECEC', padding: '30px' }}>
+                                <div class="card-section">
                                     <Row gutter={16}>
                                         <Col span={8}>
                                             <Card className="projects" title="Twitter Clone" bordered={false}>
