@@ -5,10 +5,13 @@ import { Typography} from 'antd';
 import feyu from '../images/feyu.jpg';
 import csg from '../images/csg.png';
 import ecomm from '../images/e-comm.png';
+import { Collapse } from 'antd';
 import twitter from '../images/twitter.jpg';
 import { Card, Col, Row } from 'antd';
 const { Header, Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;
+const { Panel } = Collapse;
+
 
 function Home(props) {
     return (
@@ -51,14 +54,14 @@ function Home(props) {
                                 </Timeline>
                             </div>
                             <div class="even" >
-                                <Title >Projects</Title>
+                                <Title >Main Projects</Title>
                                 <div class="card-section">
                                     <Row gutter={16}>
                                         <Col span={8}>
                                             <Card className="projects" title="Twitter Clone" bordered={false}>
                                                 <img src={twitter}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <div class="text">Link Unavailable</div>
+                                                    <div class="text">Unavailable due to private source code</div>
                                                 </div> 
                                             </Card>
                                         </Col>
@@ -81,8 +84,21 @@ function Home(props) {
                                     </Row>
                                 </div>
                             </div>
+                            <div class="odd">
+                            <Title >Major Projects</Title>
+                            <Collapse accordion>
+                                <Panel header="Tic Tac Toe" key="1">
+                                <p>Tic Tac toe is a simple gaming project. We implement front-end in react and backend in Express, which intergrates with mongodb. </p>
+                                </Panel>
+                                <Panel header="SBML" key="2">
+                                <p>SBML is a unique programing language, which was built in python lex and yacc. <a href="https://github.com/fenghsi/sbml/tree/master">Click here to view</a></p>
+                                </Panel>
+                                <Panel header="DNS Experiment" key="3">
+                                <p>Write a python Script to generate an DNS-like server for browsing</p>
+                                </Panel>
+                            </Collapse>
+                            </div>
                         </div>
-                       
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>©2020 Created by Fenghsi Yu</Footer>
                 </Layout>
