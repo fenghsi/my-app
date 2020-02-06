@@ -29,7 +29,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                        Currently, I'm a senior in Stony Brook University. I major in computer science.
+                                        I'm a student in Stony Brook University.I major in computer science. Currently, I'm in BS/MS accelerated program of Computer Science in Stony Brook University. I will graduate in 3 years for undergraduate and conitune the MS degree for another year.
                                     </Paragraph>
                                     <br />
                                 </Typography>
