@@ -7,6 +7,7 @@ import csg from '../images/csg.png';
 import ecomm from '../images/e-comm.png';
 import { Collapse } from 'antd';
 import twitter from '../images/twitter.jpg';
+import c4me from '../images/c4me.png';
 import { Card, Col, Row } from 'antd';
 const { Header, Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;
@@ -29,7 +30,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                        I'm a student in Stony Brook University.I major in computer science. Currently, I'm in BS/MS accelerated program of Computer Science in Stony Brook University. I will graduate in 3 years for undergraduate and conitune the MS degree for another year.
+                                        I'm a student in Stony Brook University. I major in computer science. Currently, I'm in BS/MS accelerated program of Computer Science in Stony Brook University. I will graduate in 3 years for undergraduate and conitune the MS degree for another year.
                                     </Paragraph>
                                     <br />
                                 </Typography>
@@ -43,7 +44,7 @@ function Home(props) {
                                         <h3>Spring 2019</h3>Teaching Assistant for Data Structure
                                     </Timeline.Item>
                                     <Timeline.Item>
-                                        <h3>June 2019</h3>Intern at KSR as a Database Developer
+                                        <h3>June 2019</h3>Intern at KSR
                                     </Timeline.Item>
                                     <Timeline.Item color="red">
                                         <h3>July 2019</h3> Work in Stony Brook University CS Department as a Web Assistant (Current Job)
@@ -57,15 +58,23 @@ function Home(props) {
                                 <Title >Major Projects</Title>
                                 <div class="card-section">
                                     <Row gutter={16}>
-                                        <Col span={8}>
-                                            <Card className="projects" title="Twitter Clone" bordered={false}>
-                                                <img src={twitter}  alt="" class="project_picture" ></img>
+                                        <Col span={6}>
+                                            <Card className="projects" title="C4me" bordered={false}>
+                                                <img src={c4me}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <div class="text">Unavailable due to private source code</div>
+                                                    <div class="text">Currently working on</div>
                                                 </div> 
                                             </Card>
                                         </Col>
-                                        <Col span={8}>
+                                        <Col span={6}>
+                                            <Card className="projects" title="Twitter Clone" bordered={false}>
+                                                <img src={twitter}  alt="" class="project_picture" ></img>
+                                                <div class="overlay">
+                                                    <div class="text"><a href="https://github.com/fenghsi/twitter-clone">Go to Github</a></div>
+                                                </div> 
+                                            </Card>
+                                        </Col>
+                                        <Col span={6}>
                                             <Card className="projects" title="E-Commerce Website" bordered={false}>
                                                 <img src={ecomm}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
@@ -73,7 +82,7 @@ function Home(props) {
                                                 </div> 
                                             </Card>
                                         </Col>
-                                        <Col span={8}>
+                                        <Col span={6}>
                                             <Card className="projects" title="Course site Generator" bordered={false}>
                                                 <img src={csg}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
