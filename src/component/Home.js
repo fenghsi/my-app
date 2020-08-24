@@ -5,6 +5,7 @@ import { Typography} from 'antd';
 import feyu from '../images/feyu.jpg';
 import csg from '../images/csg.png';
 import ecomm from '../images/e-comm.png';
+import MMA from '../images/MMA.png';
 import { Collapse } from 'antd';
 import twitter from '../images/twitter.jpg';
 import c4me from '../images/c4me.png';
@@ -30,24 +31,35 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                        I'm a student in Stony Brook University. I major in computer science. Currently, I'm in BS/MS accelerated program of Computer Science in Stony Brook University. I will graduate in 3 years for undergraduate and conitune the MS degree for another year.
+                                        I graduated from Stony Brook University and currently pursue in Master of Computer Science in Stony Brook University. I'm in BS/MS accelerated program of Computer Science. I graduated in 3 years for undergraduate and will conitune the MS degree for another year.
                                     </Paragraph>
                                     <br />
                                 </Typography>
                             </div>
+        
                             <div id = "Timeline" class="odd" >
                                 <Title >Experience</Title>
                                 <Timeline mode="alternate">
                                     <Timeline.Item>
-                                        <h3>Fall 2017</h3>Start studying Computer Science in Stony Brook University </Timeline.Item>
+                                        <h3>Fall 2017 (Start Bachelor Degree)</h3>Start Bachelor degree in Computer Science at Stony Brook University 
+                                    </Timeline.Item>
                                     <Timeline.Item color="green">
-                                        <h3>Spring 2019</h3>Teaching Assistant for Data Structure
+                                        <h3>Spring 2019 (Teaching Assistant)</h3>Teaching Assistant for Data Structure
                                     </Timeline.Item>
-                                    <Timeline.Item>
-                                        <h3>June 2019</h3>Intern at KSR
+                                    <Timeline.Item color="brown">
+                                        <h3>July 2019 - May 2020 (Web Developer)</h3> Work in Stony Brook University CS Department as a Web Developer
                                     </Timeline.Item>
-                                    <Timeline.Item color="red">
-                                        <h3>July 2019</h3> Work in Stony Brook University CS Department as a Web Assistant (Current Job)
+                                    <Timeline.Item color="brown">
+                                        <h3>May 2020 (Graduated)</h3> Graduated from Stony Brook University 
+                                    </Timeline.Item>
+                                    <Timeline.Item color="purple">
+                                        <h3>June 2020 - Aug 2020 (Software Engineering Intern)</h3> Software Engineering Intern at MMA Pan Asia Fund
+                                    </Timeline.Item>
+                                    <Timeline.Item color="blue">
+                                        <h3>Aug 2020(Solution Consultant)</h3> Solution Consultant for MMA Pan Asia Fund (Current)
+                                    </Timeline.Item>
+                                    <Timeline.Item color="blue">
+                                        <h3>Aug 2020(Start Master Degree)</h3> Start Master Degree in Computer Science at Stony Brook University (Current)
                                     </Timeline.Item>
                                     <Timeline.Item color="red">
                                         <h3>Now</h3>
@@ -58,15 +70,23 @@ function Home(props) {
                                 <Title >Major Projects</Title>
                                 <div class="card-section">
                                     <Row gutter={16}>
-                                        <Col span={6}>
-                                            <Card className="projects" title="C4me" bordered={false}>
-                                                <img src={c4me}  alt="" class="project_picture" ></img>
+                                    <Col span={8}>
+                                            <Card className="projects" title="MMADB" bordered={false}>
+                                                <img src={MMA}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <div class="text">Currently working on</div>
+                                                    <div class="text">Private Source</div>
                                                 </div> 
                                             </Card>
                                         </Col>
-                                        <Col span={6}>
+                                        <Col span={8}>
+                                            <Card className="projects" title="C4me" bordered={false}>
+                                                <img src={c4me}  alt="" class="project_picture" ></img>
+                                                <div class="overlay">
+                                                    <div class="text"><a href="https://github.com/fenghsi/College4me">Go to Github</a></div>
+                                                </div> 
+                                            </Card>
+                                        </Col>
+                                        <Col span={8}>
                                             <Card className="projects" title="Twitter Clone" bordered={false}>
                                                 <img src={twitter}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
@@ -74,7 +94,10 @@ function Home(props) {
                                                 </div> 
                                             </Card>
                                         </Col>
-                                        <Col span={6}>
+                                    </Row>
+                                    <br />
+                                    <Row gutter={16}>
+                                    <Col span={8}>
                                             <Card className="projects" title="E-Commerce Website" bordered={false}>
                                                 <img src={ecomm}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
@@ -82,7 +105,7 @@ function Home(props) {
                                                 </div> 
                                             </Card>
                                         </Col>
-                                        <Col span={6}>
+                                        <Col span={8}>
                                             <Card className="projects" title="Course site Generator" bordered={false}>
                                                 <img src={csg}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
@@ -108,8 +131,17 @@ function Home(props) {
                             </Collapse>
                             </div>
                         </div>
+                        <div class="even">
+                                <Typography className = "typolog" >
+                                    <Title >Contact</Title>
+                                    <Paragraph className = "self_intro">
+                                       Email: fenghsi.yu@stonybrook.edu
+                                    </Paragraph>
+                                    <br /><br /><br />
+                                </Typography>
+                        </div>
                     </Content>
-                    <Footer style={{ textAlign: 'center' }}>©2020 Created by Fenghsi Yu</Footer>
+                    <Footer style={{ textAlign: 'center', marginTop:'-100px' }}>©2020 Created by Fenghsi Yu</Footer>
 
                 </Layout>
             </div>
