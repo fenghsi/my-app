@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.c5bf740b.chunk.css",
-    "main.js": "/my-app/static/js/main.609189d6.chunk.js",
-    "main.js.map": "/my-app/static/js/main.609189d6.chunk.js.map",
+    "main.css": "/my-app/static/css/main.48fd6451.chunk.css",
+    "main.js": "/my-app/static/js/main.3672d62f.chunk.js",
+    "main.js.map": "/my-app/static/js/main.3672d62f.chunk.js.map",
     "runtime-main.js": "/my-app/static/js/runtime-main.97ffa0d1.js",
     "runtime-main.js.map": "/my-app/static/js/runtime-main.97ffa0d1.js.map",
     "static/css/2.35f98baf.chunk.css": "/my-app/static/css/2.35f98baf.chunk.css",
-    "static/js/2.ef3d97ed.chunk.js": "/my-app/static/js/2.ef3d97ed.chunk.js",
-    "static/js/2.ef3d97ed.chunk.js.map": "/my-app/static/js/2.ef3d97ed.chunk.js.map",
+    "static/js/2.0c0656be.chunk.js": "/my-app/static/js/2.0c0656be.chunk.js",
+    "static/js/2.0c0656be.chunk.js.map": "/my-app/static/js/2.0c0656be.chunk.js.map",
     "index.html": "/my-app/index.html",
-    "precache-manifest.8af92cb681c11b6aa782f7bb970a53f3.js": "/my-app/precache-manifest.8af92cb681c11b6aa782f7bb970a53f3.js",
+    "precache-manifest.67618a1f04818ce18737bd8e0dae5b17.js": "/my-app/precache-manifest.67618a1f04818ce18737bd8e0dae5b17.js",
     "service-worker.js": "/my-app/service-worker.js",
     "static/css/2.35f98baf.chunk.css.map": "/my-app/static/css/2.35f98baf.chunk.css.map",
-    "static/css/main.c5bf740b.chunk.css.map": "/my-app/static/css/main.c5bf740b.chunk.css.map",
-    "static/js/2.ef3d97ed.chunk.js.LICENSE": "/my-app/static/js/2.ef3d97ed.chunk.js.LICENSE",
+    "static/css/main.48fd6451.chunk.css.map": "/my-app/static/css/main.48fd6451.chunk.css.map",
+    "static/js/2.0c0656be.chunk.js.LICENSE": "/my-app/static/js/2.0c0656be.chunk.js.LICENSE",
+    "static/media/MMA.png": "/my-app/static/media/MMA.b3e45541.png",
     "static/media/c4me.png": "/my-app/static/media/c4me.dad66092.png",
     "static/media/csg.png": "/my-app/static/media/csg.97a974d2.png",
     "static/media/e-comm.png": "/my-app/static/media/e-comm.f86c10d1.png",
@@ -22,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.97ffa0d1.js",
     "static/css/2.35f98baf.chunk.css",
-    "static/js/2.ef3d97ed.chunk.js",
-    "static/css/main.c5bf740b.chunk.css",
-    "static/js/main.609189d6.chunk.js"
+    "static/js/2.0c0656be.chunk.js",
+    "static/css/main.48fd6451.chunk.css",
+    "static/js/main.3672d62f.chunk.js"
   ]
 }
