@@ -9,6 +9,7 @@ import MMA from '../images/MMA.png';
 import { Collapse } from 'antd';
 import twitter from '../images/twitter.jpg';
 import c4me from '../images/c4me.png';
+import webgen from '../images/Webgen.png';
 import { Card, Col, Row } from 'antd';
 const { Header, Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;
@@ -97,7 +98,15 @@ function Home(props) {
                                     </Row>
                                     <br />
                                     <Row gutter={16}>
-                                    <Col span={8}>
+                                        <Col span={8}>
+                                            <Card className="projects" title="WebGen" bordered={false}>
+                                                <img src={webgen}  alt="" class="project_picture" ></img>
+                                                <div class="overlay">
+                                                <div class="text"><a href="https://web4bio.github.io/webgen/">Go to Website</a></div>
+                                                </div> 
+                                            </Card>
+                                        </Col>
+                                        <Col span={8}>
                                             <Card className="projects" title="E-Commerce Website" bordered={false}>
                                                 <img src={ecomm}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
@@ -135,7 +144,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >Contact</Title>
                                     <Paragraph className = "self_intro">
-                                       Email: fenghsi.yu@stonybrook.edu
+                                       Email: yufenghsi0915@gmail.com
                                     </Paragraph>
                                     <br /><br /><br />
                                 </Typography>
