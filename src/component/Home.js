@@ -32,7 +32,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                        I graduated from Stony Brook University and currently pursue in Master of Computer Science in Stony Brook University. I'm in BS/MS accelerated program of Computer Science. I graduated in 3 years for undergraduate and will conitune the MS degree for another year.
+                                        My name is Fenghsi Yu. Completed both Master and Bachelor degree in Stony Brook Univeristy. I'm currently a full-time software developer at General Motors in Arizona.
                                     </Paragraph>
                                     <br />
                                 </Typography>
@@ -48,19 +48,19 @@ function Home(props) {
                                         <h3>Spring 2019 (Teaching Assistant)</h3>Teaching Assistant for Data Structure
                                     </Timeline.Item>
                                     <Timeline.Item color="brown">
-                                        <h3>July 2019 - May 2020 (Web Developer)</h3> Work in Stony Brook University CS Department as a Web Developer
+                                        <h3>July 2019 - May 2020 (Web Developer)</h3> Work in Stony Brook University CS Department as a Web Developer in New York 
                                     </Timeline.Item>
                                     <Timeline.Item color="brown">
-                                        <h3>May 2020 (Graduated)</h3> Graduated from Stony Brook University 
+                                        <h3>May 2020 (Graduated)</h3><b>Bachelor Degree</b> awarded from <b>Stony Brook University</b> 
                                     </Timeline.Item>
                                     <Timeline.Item color="purple">
-                                        <h3>June 2020 - Aug 2020 (Software Engineering Intern)</h3> Software Engineering Intern at MMA Pan Asia Fund
+                                        <h3>June 2020 - Aug 2020 (Software Engineering Intern)</h3> Software Engineering Intern at <b>MMA Pan Asia Fund</b> in Taiwan 
                                     </Timeline.Item>
                                     <Timeline.Item color="blue">
-                                        <h3>Aug 2020(Solution Consultant)</h3> Solution Consultant for MMA Pan Asia Fund (Current)
+                                        <h3>Aug 2020 - May 2021</h3> <b>Master Degree</b> awarded from <b>Stony Brook University</b>
                                     </Timeline.Item>
                                     <Timeline.Item color="blue">
-                                        <h3>Aug 2020(Start Master Degree)</h3> Start Master Degree in Computer Science at Stony Brook University (Current)
+                                        <h3>June 2021 (Software Developer)</h3> Full-time Software Developer at <b>General Motors</b> in Arizona (Current)
                                     </Timeline.Item>
                                     <Timeline.Item color="red">
                                         <h3>Now</h3>
@@ -144,13 +144,13 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >Contact</Title>
                                     <Paragraph className = "self_intro">
-                                       Email: yufenghsi0915@gmail.com
+                                       Email: markyu0915@gmail.com
                                     </Paragraph>
                                     <br /><br /><br />
                                 </Typography>
                         </div>
                     </Content>
-                    <Footer style={{ textAlign: 'center', marginTop:'-100px' }}>©2020 Created by Fenghsi Yu</Footer>
+                    <Footer style={{ textAlign: 'center', marginTop:'-100px' }}>©2022 Created by Fenghsi Yu</Footer>
 
                 </Layout>
             </div>
