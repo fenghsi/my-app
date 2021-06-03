@@ -32,7 +32,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                        My name is Fenghsi Yu. Completed both Master and Bachelor degree in Stony Brook Univeristy. I'm currently a full-time software developer at General Motors in Arizona.
+                                    My name is Fenghsi Yu. Completed both Master and Bachelor degrees at Stony Brook University. I'm currently a full-time software developer at General Motors in Arizona.
                                     </Paragraph>
                                     <br />
                                 </Typography>
@@ -42,25 +42,25 @@ function Home(props) {
                                 <Title >Experience</Title>
                                 <Timeline mode="alternate">
                                     <Timeline.Item>
-                                        <h3>Fall 2017 (Start Bachelor Degree)</h3>Start Bachelor degree in Computer Science at Stony Brook University 
+                                        <h2>Aug 2017 (Start Bachelor Degree)</h2>Start Bachelor degree in Computer Science at Stony Brook University 
                                     </Timeline.Item>
                                     <Timeline.Item color="green">
-                                        <h3>Spring 2019 (Teaching Assistant)</h3>Teaching Assistant for Data Structure
+                                        <h2>Jan 2019-May 2019 (Teaching Assistant)</h2>Teaching Assistant for Data Structure
                                     </Timeline.Item>
                                     <Timeline.Item color="brown">
-                                        <h3>July 2019 - May 2020 (Web Developer)</h3> Work in Stony Brook University CS Department as a Web Developer in New York 
+                                        <h2>July 2019 - May 2020 (Web Developer)</h2> Work in Stony Brook University CS Department as a Web Developer in New York 
                                     </Timeline.Item>
                                     <Timeline.Item color="brown">
-                                        <h3>May 2020 (Graduated)</h3><b>Bachelor Degree</b> awarded from <b>Stony Brook University</b> 
+                                        <h2>May 2020 (Graduated)</h2>Completed <b>Bachelor Degree</b> at <b>Stony Brook University</b> 
                                     </Timeline.Item>
                                     <Timeline.Item color="purple">
-                                        <h3>June 2020 - Aug 2020 (Software Engineering Intern)</h3> Software Engineering Intern at <b>MMA Pan Asia Fund</b> in Taiwan 
+                                        <h2>June 2020 - Aug 2020 (Software Engineering Intern)</h2> Software Engineering Intern at <b>MMA Pan Asia Fund</b> in Taiwan 
                                     </Timeline.Item>
                                     <Timeline.Item color="blue">
-                                        <h3>Aug 2020 - May 2021</h3> <b>Master Degree</b> awarded from <b>Stony Brook University</b>
+                                        <h2>Aug 2020 - May 2021(Graduated)</h2> Completed <b>Master Degree</b> at <b>Stony Brook University</b>
                                     </Timeline.Item>
                                     <Timeline.Item color="blue">
-                                        <h3>June 2021 (Software Developer)</h3> Full-time Software Developer at <b>General Motors</b> in Arizona (Current)
+                                        <h2>June 2021 (Software Developer)</h2> Full-time Software Developer at <b>General Motors</b> in Arizona (Current)
                                     </Timeline.Item>
                                     <Timeline.Item color="red">
                                         <h3>Now</h3>
