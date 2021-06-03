@@ -42,25 +42,25 @@ function Home(props) {
                                 <Title >Experience</Title>
                                 <Timeline mode="alternate">
                                     <Timeline.Item>
-                                        <h2>Aug 2017 (Start Bachelor Degree)</h2>Start Bachelor degree in Computer Science at Stony Brook University 
+                                        <h3>Aug 2017 (Start Bachelor Degree)</h3>Start Bachelor degree in Computer Science at Stony Brook University 
                                     </Timeline.Item>
                                     <Timeline.Item color="green">
-                                        <h2>Jan 2019-May 2019 (Teaching Assistant)</h2>Teaching Assistant for Data Structure
+                                        <h3>Jan 2019-May 2019 (Teaching Assistant)</h3>Teaching Assistant for Data Structure
                                     </Timeline.Item>
                                     <Timeline.Item color="brown">
-                                        <h2>July 2019 - May 2020 (Web Developer)</h2> Work in Stony Brook University CS Department as a Web Developer in New York 
+                                        <h3>July 2019 - May 2020 (Web Developer)</h3> Work in Stony Brook University CS Department as a Web Developer in New York 
                                     </Timeline.Item>
                                     <Timeline.Item color="brown">
-                                        <h2>May 2020 (Graduated)</h2>Completed <b>Bachelor Degree</b> at <b>Stony Brook University</b> 
+                                        <h3>May 2020 (Graduated)</h3>Completed <b>Bachelor Degree</b> at <b>Stony Brook University</b> 
                                     </Timeline.Item>
                                     <Timeline.Item color="purple">
-                                        <h2>June 2020 - Aug 2020 (Software Engineering Intern)</h2> Software Engineering Intern at <b>MMA Pan Asia Fund</b> in Taiwan 
+                                        <h3>June 2020 - Aug 2020 (Software Engineering Intern)</h3> Software Engineering Intern at <b>MMA Pan Asia Fund</b> in Taiwan 
                                     </Timeline.Item>
                                     <Timeline.Item color="blue">
-                                        <h2>Aug 2020 - May 2021(Graduated)</h2> Completed <b>Master Degree</b> at <b>Stony Brook University</b>
+                                        <h3>Aug 2020 - May 2021(Graduated)</h3> Completed <b>Master Degree</b> at <b>Stony Brook University</b>
                                     </Timeline.Item>
                                     <Timeline.Item color="blue">
-                                        <h2>June 2021 (Software Developer)</h2> Full-time Software Developer at <b>General Motors</b> in Arizona (Current)
+                                        <h3>June 2021 (Software Developer)</h3> Full-time Software Developer at <b>General Motors</b> in Arizona (Current)
                                     </Timeline.Item>
                                     <Timeline.Item color="red">
                                         <h3>Now</h3>
