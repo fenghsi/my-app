@@ -32,7 +32,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                    My name is Fenghsi Yu. Completed both Master and Bachelor degrees at Stony Brook University. I'm currently a full-time software developer at General Motors in Arizona.
+                                    My name is Fenghsi Yu. Completed both Master and Bachelor degrees at <b>Stony Brook University</b>. I'm currently a full-time Software Developement Engineer at <b>Amazon</b> in Tempe, Arizona.
                                     </Paragraph>
                                     <br />
                                 </Typography>
@@ -41,37 +41,35 @@ function Home(props) {
                             <div id = "Timeline" class="odd" >
                                 <Title >Experience</Title>
                                 <Timeline mode="alternate">
-                                    <Timeline.Item>
-                                        <h3>Aug 2017 (Start Bachelor Degree)</h3>Start Bachelor degree in Computer Science at Stony Brook University 
+                                    <Timeline.Item color="silver">
+                                        <h3> Now </h3>
                                     </Timeline.Item>
-                                    <Timeline.Item color="green">
-                                        <h3>Jan 2019-May 2019 (Teaching Assistant)</h3>Teaching Assistant for Data Structure
-                                    </Timeline.Item>
-                                    <Timeline.Item color="brown">
-                                        <h3>July 2019 - May 2020 (Web Developer)</h3> Work in Stony Brook University CS Department as a Web Developer in New York 
-                                    </Timeline.Item>
-                                    <Timeline.Item color="brown">
-                                        <h3>May 2020 (Graduated)</h3>Completed <b>Bachelor Degree</b> at <b>Stony Brook University</b> 
-                                    </Timeline.Item>
-                                    <Timeline.Item color="purple">
-                                        <h3>June 2020 - Aug 2020 (Software Engineering Intern)</h3> Software Engineering Intern at <b>MMA Pan Asia Fund</b> in Taiwan 
+                                    <Timeline.Item color="orange">
+                                        <h3>Amazon</h3> <h4>June 2022 - Current</h4> <b>Software Development Engineer</b> (Tempe, Arizona)
                                     </Timeline.Item>
                                     <Timeline.Item color="blue">
-                                        <h3>Aug 2020 - May 2021(Graduated)</h3> Completed <b>Master Degree</b> at <b>Stony Brook University</b>
-                                    </Timeline.Item>
-                                    <Timeline.Item color="blue">
-                                        <h3>June 2021 (Software Developer)</h3> Full-time Software Developer at <b>General Motors</b> in Arizona (Current)
+                                        <h3>General Motors</h3> <h4>June 2021 - May 2022</h4> <b>Software Developer</b> (Chandler, Arizona)
                                     </Timeline.Item>
                                     <Timeline.Item color="red">
-                                        <h3>Now</h3>
+                                        <h3>Stony Brook University</h3> <h4>Aug 2020 - May 2021</h4> Completed <b>Master Degree</b> (Stony Brook, NY)
                                     </Timeline.Item>
+                                    <Timeline.Item color="purple">
+                                        <h3>MMA Pan Asia Fund</h3> <h4>June 2020 - Aug 2020</h4> <b>Software Engineering Intern</b> (Taipei, Taiwan)
+                                    </Timeline.Item>
+                                    <Timeline.Item color="red">
+                                        <h3>Stony Brook University</h3> <h4>Aug 2020 - May 2021</h4> Completed <b>Bachelor Degree</b> (Stony Brook, NY)
+                                    </Timeline.Item>
+                                    <Timeline.Item color="brown">
+                                        <h3>Stony Brook University CS Department </h3><h4>July 2019 - May 2020</h4> <b>Web Assistant</b> (Stony Brook, NY)
+                                    </Timeline.Item>
+
                                 </Timeline>
                             </div>
                             <div class="even" >
                                 <Title >Major Projects</Title>
                                 <div class="card-section">
                                     <Row gutter={16}>
-                                    <Col span={8}>
+                                        <Col span={8}>
                                             <Card className="projects" title="MMADB" bordered={false}>
                                                 <img src={MMA}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
